@@ -1,0 +1,39 @@
+{
+	"name": "@dad-js/dad-items",
+	"version": "0.0.1",
+	"description": "Auto-generated Dark and Darker Items",
+	"scripts": {
+		"build": "tsc --pretty",
+		"build:itemDB": "node ./scripts/buildItems.js"
+	},
+	"exports": {
+		".": "./dist/index.js"
+	},
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist",
+		"itemDB.json"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dad-js/dad-items.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/dad-js/dad-items/issues"
+	},
+	"homepage": "https://github.com/dad-js/dad-items#readme",
+	"publishConfig": {
+		"@dad-js:registry": "https://npm.pkg.github.com"
+	},
+	"devDependencies": {
+		"ansi-colors": "^4.1.3",
+		"change-case-all": "^2.1.0",
+		"cli-progress": "^3.12.0",
+		"dotenv-cli": "^7.4.2",
+		"rimraf": "^6.0.1",
+		"typescript": "^5.5.4"
+	}
+}

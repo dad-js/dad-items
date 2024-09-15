@@ -1,0 +1,7 @@
+.prettierrc
+.vscode/
+src/
+dist/test.js
+dist/test.d.js
+dump/
+scripts/
