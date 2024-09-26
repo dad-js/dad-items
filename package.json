@@ -1,6 +1,6 @@
 {
 	"name": "@dad-js/dad-items",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Auto-generated Dark and Darker Items",
 	"scripts": {
 		"build": "tsc --pretty",
